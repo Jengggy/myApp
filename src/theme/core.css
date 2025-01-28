@@ -1,0 +1,33 @@
+/* สีพื้นหลังหลัก */
+.ios {
+    --ion-background-color: #a8d0e6; /* สีฟ้าอ่อน */
+  }
+  
+  .md {
+    --ion-background-color: #f4a300; /* สีพาสเทลส้ม */
+  }
+  
+  /* เปลี่ยนสีของ toolbar */
+  ion-toolbar {
+    --background: #ffafcc; /* สีชมพูพาสเทล */
+    --color: #ffffff; /* ตัวอักษรสีขาว */
+  }
+  
+  /* เปลี่ยนสีของ item เมื่อ hover */
+  ion-item {
+    --background-hover: #b8e2d1; /* สีเขียวพาสเทล */
+    --color: #000000; /* ตัวอักษรสีดำ */
+  }
+  
+  /* เปลี่ยนสีของ label */
+  ion-label {
+    --color: #ff6f61; /* สีพาสเทลแดง */
+  }
+  
+  /* เปลี่ยนสีของ back button */
+  ion-back-button {
+    color: #ffffff !important;
+    --color-focused: #ffb6b9; /* สีชมพูอ่อนเมื่อโฟกัส */
+    --color-hover: #ffb6b9; /* สีชมพูอ่อนเมื่อ hover */
+  }
+  
